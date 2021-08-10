@@ -1,0 +1,121 @@
+
+.section_cursos{
+    padding-top: 8rem;
+}
+
+.nav_cursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #D28282;
+    border-top: 2px solid white;
+}
+
+.curso_btn{
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    border-right: 1px white solid;
+
+    transition: .3s ease-in-out;
+}
+
+.ultimo_curso_btn{
+    border: none;
+}
+
+.curso_btn:hover{
+    background-color: #f07079;
+}
+
+.curso_pintado{
+    background-color: #f14c57 !important;
+}
+
+.cont_curso{
+    margin-bottom: 5rem;
+}
+
+.cont_curso{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cont_info_curso{
+    margin-top: 1rem;
+    text-align: initial;
+    padding-right: 1rem;
+}
+
+.titulo_curso{
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.subtitulo_curso{
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.cont_texto{
+    margin-top: 1.5rem;
+}
+
+.programa{
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+}
+
+.titulo_programa{
+    margin-bottom: 1.5rem;
+}
+
+.cont_img_curso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto_curso{
+    width: 70%;
+    border-radius: 2rem;
+}
+
+.footer_mc{
+    font-weight: 600;
+}
+
+.huella{
+    content: url('https://api.iconify.design/mdi:paw.svg?height=24');
+vertical-align: -0.125em;
+}
+
+.cont_educar{
+    padding-top: 10rem;
+}
+
+@media (max-width: 850px){
+    .section_cursos{
+        padding-top: 5.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    .nav_cursos{
+        grid-template-columns: 1fr;
+    }
+
+    .curso_btn{
+        padding: 1rem;
+        border-right: none;
+        border-bottom: 1px white solid;
+    }
+
+    .cont_img_curso{
+        margin-top: 3rem;
+    }
+}
