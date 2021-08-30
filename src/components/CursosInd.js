@@ -12,11 +12,11 @@ export const CursosInd = ({handlerPintarCurso}) => {
             <div className="cont_info_curso col-xl-7 col-md-7 col-sm-12">
                 <div className="titulo_curso">Cursos individuales</div>
 
-                <div className="subtitulo_curso">CURSO INDIVIDUAL DE EDUCACIÓN PREVENTIVA PARA CACHORROS</div>
+                <div className="subtitulo_curso">CLASES INDIVIDUALES SEMI-PRESENCIALES</div>
 
                 <div className="cont_texto">
                     <div className="texto">
-                        El curso de educación preventiva para cachorros es un curso individual de 6 meses de duración con modalidad regular o 3 meses a través de modalidad intensiva. Programado para perros desde los 45 días de vida hasta los 6 meses de edad. 
+                        El curso de educación preventiva para cachorros es un curso individual de 6 meses de duración, donde la primera mitad del curso de realiza a través de Zoom y luego la otra mitad se realiza en el parque Chacabuco o Flores (nuestros parques de base).
                     </div>
                     <div className="texto">Trabajamos con adiestramiento positivo y  cognitivo emocional.</div>
                     <div className="texto">Las clases se realizan a través de modalidad online, y de forma presencial. </div>
@@ -40,7 +40,7 @@ export const CursosInd = ({handlerPintarCurso}) => {
                 </div>                      
 
 
-                <div className="subtitulo_curso">CURSO INDIVIDUAL DE EDUCACIÓN BÁSICA GENERAL PARA PERROS ADULTOS SIN PROBLEMAS</div>
+                {/* <div className="subtitulo_curso">CURSO INDIVIDUAL DE EDUCACIÓN BÁSICA GENERAL PARA PERROS ADULTOS SIN PROBLEMAS</div>
                 
                 <div className="cont_texto">
                     <div className="texto">
@@ -91,7 +91,7 @@ export const CursosInd = ({handlerPintarCurso}) => {
                     <li className="item_programa">Lenguaje canino.</li>
                     <li className="item_programa">Fundamentos del aprendizaje.</li>
                     <li className="item_programa">Comportamiento adecuado en el parque con personas, niños y otros perros.</li>
-                </ul>
+                </ul> */}
             </div>
 
             <div className="cont_img_curso col-xl-5 col-md-5 col-sm-12">

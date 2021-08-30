@@ -12,7 +12,7 @@ export const CursosGru = () => {
                     <div className="subtitulo_curso">CURSO GRUPAL DE EDUCACIÓN BÁSICA Y OBEDIENCIA</div>                    
 
                     <div className="cont_texto">
-                        <div className="texto">El curso grupal de educación básica para principiantes tiene una duración de 3 meses, y se cursa una vez por semana en Capital Federal. </div>
+                        <div className="texto">Las clases grupales se realizan una vez por semana, tenes la opción de tomar el curso presencial en Parque Chacabuco, o podes hacer el curso 100% online si estas lejos.</div>
                         <div className="texto">Pueden participar cachorros con el plan vacunatorio completo, o perros adultos.</div>
                         <div className="texto">Trabajamos con adiestramiento positivo y  cognitivo emocional. </div>
                         <div className="texto">Las clases grupales son 100% presenciales.</div>
