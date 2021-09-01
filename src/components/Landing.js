@@ -27,7 +27,7 @@ export const Landing =  ()=> {
             <div className="escuela_lider row">
                 <div className="col-xl-6 col-md-6 col-sm-12 cont_text_escuela">
                     <div>
-                        ESCUELA LIDER EN EDUCACIÓN Y REACREACIÓN EN ARGENTINA
+                        ESCUELA LIDER EN EDUCACIÓN Y RECREACIÓN
                     </div>
                 </div>
                 <div className="col-xl-6 col-md-6 col-sm-12 cont_img_escuela">

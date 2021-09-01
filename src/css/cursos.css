@@ -1,13 +1,13 @@
 
 .section_cursos{
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
 }
 
 .nav_cursos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background: #D28282;
-    border-top: 2px solid white;
+    border-top: 1px solid white;
 }
 
 .curso_btn{
@@ -96,7 +96,7 @@ vertical-align: -0.125em;
 }
 
 .cont_educar{
-    padding-top: 10rem;
+    padding-top: 4rem;
 }
 
 @media (max-width: 850px){
