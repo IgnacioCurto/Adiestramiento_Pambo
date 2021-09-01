@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 .cont_contacto{
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
@@ -45,10 +45,6 @@
 }
 
 @media only screen and (max-width: 850px){
-    .cont_contacto{
-        padding-top: 5.5rem;
-    }
-
     .info_info_consulta{
         width: 100%;
     }
@@ -80,8 +76,5 @@
 
     .email_contacto{
         text-align: center;
-    }
-    
-    .span_info{
     }
 }

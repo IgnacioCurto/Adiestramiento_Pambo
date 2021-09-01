@@ -1,6 +1,4 @@
-.section_testimonios{
-    /* padding-top: 1rem; */
-}
+
 
 .iframe_testimonios{
     height: 80vh;
@@ -85,9 +83,6 @@
 }
 
 @media (max-width: 850px){
-    .section_testimonios{
-        padding-top: 5.5rem;
-    }
 
     .iframe_testimonios{
         height: 50vh;

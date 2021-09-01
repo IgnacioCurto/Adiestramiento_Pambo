@@ -1,7 +1,4 @@
 
-.section_cursos{
-    /* padding-top: 8rem; */
-}
 
 .nav_cursos{
     display: grid;
@@ -95,15 +92,6 @@
 vertical-align: -0.125em;
 }
 
-.cont_educar{
-    padding-top: 4rem;
-}
-
-@media (max-width: 850px){
-    .section_cursos{
-        padding-top: 5.5rem;
-    }
-}
 
 @media (max-width: 768px){
     .nav_cursos{

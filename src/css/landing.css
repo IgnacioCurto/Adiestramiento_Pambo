@@ -4,10 +4,6 @@
     width: 100%;
 }
 
-.cont-video{
-    /* padding-top: 8rem; */
-}
-
 .video-land{
     width: 100%;
     height: 80vh;
@@ -290,9 +286,6 @@
 }
 
 @media only screen and (max-width: 850px){
-    .cont-video{
-        padding-top: 5.5rem;
-    }
 
     .video-land{
         height: 35vh;
