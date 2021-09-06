@@ -12,20 +12,15 @@ export const CursosInd = ({handlerPintarCurso}) => {
             <div className="cont_info_curso col-xl-7 col-md-7 col-sm-12">
                 <div className="titulo_curso">Cursos individuales</div>
 
-                <div className="subtitulo_curso">CLASES INDIVIDUALES SEMI-PRESENCIALES</div>
-
-                <div className="cont_texto">
-                    <div className="texto">
-                        El curso de educación preventiva para cachorros es un curso individual de 6 meses de duración, donde la primera mitad del curso de realiza a través de Zoom y luego la otra mitad se realiza en el parque Chacabuco o Flores (nuestros parques de base).
-                    </div>
-                    <div className="texto">Trabajamos con adiestramiento positivo y  cognitivo emocional.</div>
-                    <div className="texto">Las clases se realizan a través de modalidad online, y de forma presencial. </div>
-                    <div className="texto">Si vivís en el interior del país o en el exterior podes cursar el curso 100% online.</div>
+                <div className="cont_cursoInd">
+                    <div className="subtitulo_curso">SEMI-PRESENCIALES</div>
+                    <div className="subtitulo_curso">100% ONLINE</div>
+                    <div className="subtitulo_curso">A DOMICILIO</div>
                 </div>
                 
                         
                 <div className="programa">
-                    <div className="titulo_programa">Contenido del programa:</div>
+                    <div className="titulo_programa">¿Qué van a aprender?</div>
                     <ul className="ul_programa">
                     
                         <li className="item_programa">Educación general dentro de la casa con la familia y visitas.</li>
@@ -38,60 +33,6 @@ export const CursosInd = ({handlerPintarCurso}) => {
 
                     </ul>
                 </div>                      
-
-
-                {/* <div className="subtitulo_curso">CURSO INDIVIDUAL DE EDUCACIÓN BÁSICA GENERAL PARA PERROS ADULTOS SIN PROBLEMAS</div>
-                
-                <div className="cont_texto">
-                    <div className="texto">
-                        El curso de educación básica general es un curso individual de 6 meses de duración con modalidad regular o 3 meses a través de modalidad intensiva. Programado para perros desde los 7 meses de edad en adelante.
-                    </div>
-                    <div className="texto">
-                        Trabajamos con adiestramiento positivo y  cognitivo emocional.
-                    </div>
-                    <div className="texto">
-                        Las clases se realizan a través de modalidad online, y de forma presencial.
-                        </div>
-                    <div className="texto">
-                        Si vivís en el interior del país o en el exterior podes cursar el curso 100% online.
-                    </div>
-                </div>
-
-                <div className="programa">
-                    <div className="titulo_programa">Contenido del programa:</div>
-
-                    <ul className="ul_programa">
-                        <li className="item_programa">Educación general dentro de la casa con la familia y visitas.</li>
-                        <li className="item_programa">Obediencia básica general : sentado , acostado, quieto, acudir al llamado, orden NO, alto en las esquinas, ejercicios de calma, olfato, autocontrol, caminar correctamente sin tirar de la correa, y mucho más.</li>
-                        <li className="item_programa">Correcto vínculo entre la familia y el perro.</li>
-                        <li className="item_programa">Lenguaje canino.</li>
-                        <li className="item_programa">Fundamentos del aprendizaje.</li>
-                        <li className="item_programa">Comportamiento adecuado en el parque con personas, niños y otros perros.</li>
-                    </ul>
-
-                </div>
-
-                <div className="subtitulo_curso">CURSO INDIVIDUAL DE EDUCACIÓN PARA PERROS ADULTOS CON RESOLUCIÓN DE CONFLICTOS</div>
-
-                <div className="cont_texto">
-                    <div className="texto">
-                        El curso de educación básica general es un curso individual de 6 meses de duración con modalidad regular o 3 meses a través de modalidad intensiva. Programado para perros desde los 7 meses de edad en adelante.
-                    </div>
-                    <div className="texto">Trabajamos con adiestramiento positivo y  cognitivo emocional.</div>
-                    <div className="texto">Las clases se realizan a través de modalidad online, y de forma presencial.</div>
-                    <div className="texto">Si vivís en el interior del país o en el exterior podes cursar el curso 100% online.</div>
-                </div>
-
-                <div className="titulo_programa">Contenido del programa:</div>
-
-                <ul className="ul_programa">
-                    <li className="item_programa">Educación general dentro de la casa con la familia y visitas.</li>
-                    <li className="item_programa">Obediencia básica general : sentado , acostado, quieto, acudir al llamado, orden NO, alto en las esquinas, ejercicios de calma, olfato, autocontrol, caminar correctamente sin tirar de la correa, y mucho más.
-                    Correcto vínculo entre la familia y el perro.</li>
-                    <li className="item_programa">Lenguaje canino.</li>
-                    <li className="item_programa">Fundamentos del aprendizaje.</li>
-                    <li className="item_programa">Comportamiento adecuado en el parque con personas, niños y otros perros.</li>
-                </ul> */}
             </div>
 
             <div className="cont_img_curso col-xl-5 col-md-5 col-sm-12">

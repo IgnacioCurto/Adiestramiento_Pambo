@@ -15,7 +15,6 @@
     font-weight: 600;
     color: white;
     border-right: 1px white solid;
-
     transition: .3s ease-in-out;
 }
 
@@ -46,18 +45,34 @@
     padding-right: 1rem;
 }
 
+.cont_cursoInd{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
 .titulo_curso{
+    margin-bottom: 1rem;
     margin-top: 2rem;
     font-weight: 700;
     font-size: 2rem;
 }
 
 .subtitulo_curso{
-    margin-top: 2rem;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    padding: .8rem;
+    margin: .5rem;
     font-weight: 600;
     font-size: 1.2rem;
+    transition: .5s ease;
 }
 
+.subtitulo_curso:hover{
+    transform: scale(1.05);
+    border: 1.5px solid #f14c57;
+    color: #f14c57;
+}
 .cont_texto{
     margin-top: 1.5rem;
 }
@@ -68,6 +83,7 @@
 }
 
 .titulo_programa{
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
@@ -76,6 +92,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+}
+
+.texto_taller{
+    margin-top: 2rem;
+    font-size: 1.2rem;
 }
 
 .foto_curso{
@@ -98,12 +119,22 @@ vertical-align: -0.125em;
         grid-template-columns: 1fr;
     }
 
+    .cont_cursoInd{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     .curso_btn{
         padding: 1rem;
         border-right: none;
         border-bottom: 1px white solid;
     }
 
+    .subtitulo_curso{
+        border: 1.5px solid #f07079;
+        color: #f07079;
+    }
     .cont_img_curso{
         margin-top: 3rem;
     }
