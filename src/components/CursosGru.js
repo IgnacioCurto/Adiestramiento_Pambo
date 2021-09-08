@@ -8,7 +8,7 @@ export const CursosGru = () => {
             <div className="cont_curso row">
                 <div className="cont_info_curso col-xl-7 col-md-7 col-sm-12">
 
-                    <div className="titulo_curso">Curso grupal de educación básica y obedencia</div> 
+                    <div className="titulo_curso">Curso grupal de educación básica y obediencia</div> 
                     <div className="cont_cursoInd">
                         <div className="subtitulo_curso">PRESENCIAL</div>
                         <div className="subtitulo_curso">100% ONLINE</div>
@@ -31,12 +31,12 @@ export const CursosGru = () => {
                         </ul>
                     </div>
 
-                    <div className="titulo_curso">Taller de sociabilizacion y aprendizaje</div>
+                    <div className="titulo_curso">Taller de sociabilización y aprendizaje</div>
                     <div className="cont_cursoInd">
                         <div className="subtitulo_curso">PRESENCIAL</div>
                     </div>
 
-                    <div className="texto_taller">En este taller se van a realizar ejercicios de integración, donde el objetivo del mismo es reforzar y mejorar la sociabilizacion entre los perros para crear una mejor convivencia.</div>
+                    <div className="texto_taller">En este taller se van a realizar ejercicios de integración, donde el objetivo del mismo es reforzar y mejorar la sociabilizacion (entre perritos).</div>
 
 
                 </div>
