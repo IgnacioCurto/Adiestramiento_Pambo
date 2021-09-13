@@ -36,7 +36,7 @@ export const CursosGru = () => {
                         <div className="subtitulo_curso">PRESENCIAL</div>
                     </div>
 
-                    <div className="texto_taller">En este taller se van a realizar ejercicios de integración, donde el objetivo del mismo es reforzar y mejorar la sociabilizacion (entre perritos).</div>
+                    <div className="texto_taller">En este taller se van a realizar ejercicios prácticos de integración. El objetivo del mismo es mejorar y reforzar la sociabilización de los perritos entre perritos.</div>
 
 
                 </div>
